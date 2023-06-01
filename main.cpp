@@ -16,7 +16,7 @@ static llvm::cl::opt<std::string> IRFile(llvm::cl::Positional,
 
 void usage( void )
 {
-    std::cerr << "usage : ./main -i <llvm ir file>" << "\n";
+    std::cerr << "usage : ./main <llvm ir file>" << "\n";
 }
 
 int main( int argc, char *argv[] )
